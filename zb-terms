@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use - Zone Buddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #1B197A;
+        }
+        a {
+            color: #1B197A;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Terms of Use for Zone Buddy</h1>
+    <p>Effective Date: October 17, 2024</p>
+
+    <p>Welcome to Zone Buddy! These Terms of Use ("Terms") govern your use of the Zone Buddy mobile application (the "App"). By using the App, you agree to these Terms.</p>
+
+    <h2>1. User Agreement</h2>
+    <p>By accessing and using Zone Buddy, you agree to the following rules:</p>
+    <ul>
+        <li>You must not misuse the app in any unlawful or harmful way.</li>
+        <li>You are responsible for any activity that occurs under your account.</li>
+        <li>You must not attempt to reverse engineer, modify, or tamper with the App or its functionality.</li>
+        <li>You agree to comply with all applicable laws when using the App.</li>
+    </ul>
+    <p>Zone Buddy reserves the right to terminate access to the App if you violate these rules.</p>
+
+    <h2>2. License to Use</h2>
+    <p>Zone Buddy grants you a limited, non-exclusive, non-transferable license to use the App. Users have limited access to app features, but can unlock full access through a paid subscription.</p>
+
+    <h2>3. Subscription Terms</h2>
+    <p>Zone Buddy offers two subscription plans:</p>
+    <ul>
+        <li><strong>Monthly</strong>: $0.99 per month</li>
+        <li><strong>Annually</strong>: $9.99 per year, with a 7-day free trial for first-time subscribers</li>
+    </ul>
+    <p>Both subscriptions automatically renew unless canceled. You will be charged at the start of each billing period unless you disable auto-renewal in your App Store account settings.</p>
+
+    <h3>Free Trial</h3>
+    <p>Your subscription may begin with a 7-day free trial. If you do not cancel within the trial period, you will be charged for the selected subscription plan once the trial ends.</p>
+
+    <h3>Cancellation Policy</h3>
+    <p>You may cancel your subscription at any time via the App Store or your device settings. Canceled subscriptions remain active until the end of the current billing cycle, after which your access to premium features will be restricted.</p>
+
+    <h3>Refund Policy</h3>
+    <p>Refunds are governed by the policies of the App Store. Zone Buddy does not provide refunds directly.</p>
+
+    <h2>4. Liability Disclaimer</h2>
+    <p>Zone Buddy is provided "as is" and without warranties of any kind. While we strive to maintain a reliable and functional service, we do not guarantee that the App will be error-free or uninterrupted. You use the App at your own risk.</p>
+
+    <p>Zone Buddy shall not be held liable for any damages, including direct, indirect, incidental, or consequential damages, arising out of the use or inability to use the App.</p>
+
+    <h2>5. User Control</h2>
+    <p>Users can delete timezone items created within the app, one by one, from the main list screen.</p>
+
+    <h2>6. Intellectual Property</h2>
+    <p>All intellectual property rights in the App, including its content, design, and code, are owned by Zone Buddy or its licensors. You agree not to infringe upon or use any intellectual property for commercial purposes without permission.</p>
+
+    <h2>7. Governing Law</h2>
+    <p>These Terms and any disputes arising out of or relating to your use of the App shall be governed by and construed in accordance with the laws of the Republic of Turkey.</p>
+
+    <h2>8. Changes to These Terms</h2>
+    <p>Zone Buddy reserves the right to modify these Terms at any time. Any changes will be posted within the App, and your continued use of the App after changes are made constitutes your acceptance of the revised Terms.</p>
+
+    <h2>9. Contact Information</h2>
+    <p>If you have any questions or concerns regarding these Terms, please contact us at <a href="mailto:omralcrt@gmail.com">omralcrt@gmail.com</a>.</p>
+
+</body>
+</html>
