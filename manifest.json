@@ -1,23 +1,28 @@
 {
-    "name": "flutter_portfolio",
-    "short_name": "flutter_portfolio",
-    "start_url": ".",
+    "name": "Ömral Cörüt - Portfolio",
+    "short_name": "Ömral Portfolio",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Ömral Cörüt Personal Website",
-    "orientation": "portrait-primary",
+    "description": "Ömral Cörüt - Software Developer & Mobile App Designer Portfolio",
+    "orientation": "any",
     "prefer_related_applications": false,
+    "scope": "/",
+    "lang": "en",
+    "categories": ["portfolio", "developer", "mobile", "apps"],
     "icons": [
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
             "src": "icons/Icon-512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ]
 }
