@@ -1,45 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    Fore more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-  -->
-  <base href="/">
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Ömral Cörüt Personel Website">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_portfolio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>Ömral Cörüt</title>
-  <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ömral Cörüt - Software Developer & Mobile App Designer. Portfolio showcasing innovative mobile applications and web solutions.">
+    <meta name="keywords" content="Ömral Cörüt, Software Developer, Mobile Apps, Flutter, iOS, Android, Web Development">
+    <meta name="author" content="Ömral Cörüt">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ömral Cörüt - Software Developer Portfolio">
+    <meta property="og:description" content="Innovative mobile applications and web solutions by Ömral Cörüt">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/profile.jpg">
+    
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Ömral Cörüt">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    
+    <title>Ömral Cörüt - Software Developer Portfolio</title>
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Local font fallbacks for better performance and compatibility -->
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1332386863');
-      });
-    }
-  </script>
-  <script src="main.dart.js" type="application/javascript"></script>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-brand">Ömral Cörüt</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Ömral Cörüt</span>
+                </h1>
+                <p class="hero-subtitle">Software Developer & Mobile App Designer</p>
+                <p class="hero-description">
+                    I create innovative mobile applications and web solutions that combine 
+                    beautiful design with powerful functionality.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Ömral Cörüt" class="profile-img">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate software developer with expertise in mobile app development 
+                        and web technologies. I love creating user-centric solutions that solve real-world 
+                        problems and deliver exceptional user experiences.
+                    </p>
+                    <p>
+                        My journey in software development has led me to work on diverse projects, 
+                        from fintech applications to e-commerce platforms, always focusing on 
+                        innovation and quality.
+                    </p>
+                    <div class="skills">
+                        <h3>Technologies I Work With</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">iOS Development</span>
+                            <span class="skill-tag">Android Development</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        I'm always interested in hearing about new opportunities and 
+                        exciting projects. Let's discuss how we can work together!
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:hello@omralcorut.com" class="contact-link">
+                            <i class="icon-email"></i>
+                            hello@omralcorut.com
+                        </a>
+                        <a href="https://linkedin.com/in/omralcorut" class="contact-link" target="_blank">
+                            <i class="icon-linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/omralcrt" class="contact-link" target="_blank">
+                            <i class="icon-github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ömral Cörüt. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
 </body>
 </html>
