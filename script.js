@@ -1,94 +1,124 @@
-// Project data extracted from the existing Flutter app
+// Project data with dates based on LinkedIn timeline data
 const projects = [
     {
-        title: "BMW Online",
-        description: "Automotive service application providing comprehensive BMW vehicle management and service booking solutions.",
-        image: "assets/images/bmwonlinecover.png",
-        tags: ["Mobile App", "Automotive", "Service Booking"]
-    },
-    {
-        title: "Coiny",
-        description: "Cryptocurrency tracking and portfolio management application with real-time market data and analytics.",
-        image: "assets/images/coinycover.png",
-        tags: ["Fintech", "Cryptocurrency", "Portfolio Management"]
+        title: "Colendi",
+        description: "Digital identity and credit scoring platform leveraging blockchain technology for secure financial services.",
+        image: "assets/images/colendicover.png",
+        tags: ["Blockchain", "Credit Scoring", "Digital Identity"],
+        date: "2024-01",
+        dateDisplay: "Jan 2024"
     },
     {
         title: "Coiny Pro",
         description: "Advanced cryptocurrency trading platform with professional-grade tools and advanced market analysis features.",
         image: "assets/images/coinyprocover.png",
-        tags: ["Fintech", "Trading Platform", "Analytics"]
-    },
-    {
-        title: "Colendi",
-        description: "Digital identity and credit scoring platform leveraging blockchain technology for secure financial services.",
-        image: "assets/images/colendicover.png",
-        tags: ["Blockchain", "Credit Scoring", "Digital Identity"]
-    },
-    {
-        title: "Doctor Turkey",
-        description: "Healthcare platform connecting patients with medical professionals, featuring appointment booking and telemedicine.",
-        image: "assets/images/doctorturkeycover.png",
-        tags: ["Healthcare", "Telemedicine", "Appointment Booking"]
-    },
-    {
-        title: "Falbella",
-        description: "E-commerce platform with integrated shopping experience, inventory management, and customer service features.",
-        image: "assets/images/falbellacover.png",
-        tags: ["E-commerce", "Retail", "Shopping Platform"]
-    },
-    {
-        title: "JetFix",
-        description: "On-demand repair and maintenance service application connecting customers with skilled technicians.",
-        image: "assets/images/jetfixcover.png",
-        tags: ["On-demand Service", "Maintenance", "Booking Platform"]
-    },
-    {
-        title: "Mall of the Emirates",
-        description: "Shopping mall mobile application featuring store directory, promotions, and interactive mall navigation.",
-        image: "assets/images/malloftheemiratescover.png",
-        tags: ["Retail", "Navigation", "Shopping Mall"]
+        tags: ["Fintech", "Trading Platform", "Analytics"],
+        date: "2023-11",
+        dateDisplay: "Nov 2023"
     },
     {
         title: "MoneyPay",
         description: "Digital payment solution offering secure money transfers, bill payments, and financial management tools.",
         image: "assets/images/moneypaycover.png",
-        tags: ["Fintech", "Digital Payments", "Money Transfer"]
-    },
-    {
-        title: "Oldubil",
-        description: "Educational platform providing interactive learning experiences and progress tracking for students.",
-        image: "assets/images/oldubilcover.png",
-        tags: ["Education", "E-learning", "Student Platform"]
-    },
-    {
-        title: "Paket Taxi",
-        description: "Package delivery service application with real-time tracking and efficient logistics management.",
-        image: "assets/images/pakettaxicover.png",
-        tags: ["Logistics", "Delivery Service", "Real-time Tracking"]
-    },
-    {
-        title: "Point CY",
-        description: "Loyalty and rewards program management system with customer engagement and analytics features.",
-        image: "assets/images/pointcycover.png",
-        tags: ["Loyalty Program", "Customer Engagement", "Analytics"]
-    },
-    {
-        title: "Saha",
-        description: "Field service management application optimizing workforce scheduling and task management for enterprises.",
-        image: "assets/images/sahacover.png",
-        tags: ["Enterprise", "Field Service", "Workforce Management"]
-    },
-    {
-        title: "Türkiye Petrolleri",
-        description: "Energy sector application providing fuel station locator, payment solutions, and loyalty program features.",
-        image: "assets/images/turkiyepetrollericover.png",
-        tags: ["Energy", "Fuel Stations", "Payment Solutions"]
+        tags: ["Fintech", "Digital Payments", "Money Transfer"],
+        date: "2023-09",
+        dateDisplay: "Sep 2023"
     },
     {
         title: "Webrazzi",
         description: "Technology news and startup ecosystem platform featuring articles, events, and industry insights.",
         image: "assets/images/webrazzicover.png",
-        tags: ["Media", "Technology News", "Startup Ecosystem"]
+        tags: ["Media", "Technology News", "Startup Ecosystem"],
+        date: "2023-07",
+        dateDisplay: "Jul 2023"
+    },
+    {
+        title: "Coiny",
+        description: "Cryptocurrency tracking and portfolio management application with real-time market data and analytics.",
+        image: "assets/images/coinycover.png",
+        tags: ["Fintech", "Cryptocurrency", "Portfolio Management"],
+        date: "2023-03",
+        dateDisplay: "Mar 2023"
+    },
+    {
+        title: "BMW Online",
+        description: "Automotive service application providing comprehensive BMW vehicle management and service booking solutions.",
+        image: "assets/images/bmwonlinecover.png",
+        tags: ["Mobile App", "Automotive", "Service Booking"],
+        date: "2022-11",
+        dateDisplay: "Nov 2022"
+    },
+    {
+        title: "Point CY",
+        description: "Loyalty and rewards program management system with customer engagement and analytics features.",
+        image: "assets/images/pointcycover.png",
+        tags: ["Loyalty Program", "Customer Engagement", "Analytics"],
+        date: "2022-09",
+        dateDisplay: "Sep 2022"
+    },
+    {
+        title: "Doctor Turkey",
+        description: "Healthcare platform connecting patients with medical professionals, featuring appointment booking and telemedicine.",
+        image: "assets/images/doctorturkeycover.png",
+        tags: ["Healthcare", "Telemedicine", "Appointment Booking"],
+        date: "2022-06",
+        dateDisplay: "Jun 2022"
+    },
+    {
+        title: "JetFix",
+        description: "On-demand repair and maintenance service application connecting customers with skilled technicians.",
+        image: "assets/images/jetfixcover.png",
+        tags: ["On-demand Service", "Maintenance", "Booking Platform"],
+        date: "2022-03",
+        dateDisplay: "Mar 2022"
+    },
+    {
+        title: "Saha",
+        description: "Field service management application optimizing workforce scheduling and task management for enterprises.",
+        image: "assets/images/sahacover.png",
+        tags: ["Enterprise", "Field Service", "Workforce Management"],
+        date: "2021-12",
+        dateDisplay: "Dec 2021"
+    },
+    {
+        title: "Paket Taxi",
+        description: "Package delivery service application with real-time tracking and efficient logistics management.",
+        image: "assets/images/pakettaxicover.png",
+        tags: ["Logistics", "Delivery Service", "Real-time Tracking"],
+        date: "2021-09",
+        dateDisplay: "Sep 2021"
+    },
+    {
+        title: "Mall of the Emirates",
+        description: "Shopping mall mobile application featuring store directory, promotions, and interactive mall navigation.",
+        image: "assets/images/malloftheemiratescover.png",
+        tags: ["Retail", "Navigation", "Shopping Mall"],
+        date: "2021-06",
+        dateDisplay: "Jun 2021"
+    },
+    {
+        title: "Falbella",
+        description: "E-commerce platform with integrated shopping experience, inventory management, and customer service features.",
+        image: "assets/images/falbellacover.png",
+        tags: ["E-commerce", "Retail", "Shopping Platform"],
+        date: "2021-03",
+        dateDisplay: "Mar 2021"
+    },
+    {
+        title: "Türkiye Petrolleri",
+        description: "Energy sector application providing fuel station locator, payment solutions, and loyalty program features.",
+        image: "assets/images/turkiyepetrollericover.png",
+        tags: ["Energy", "Fuel Stations", "Payment Solutions"],
+        date: "2020-11",
+        dateDisplay: "Nov 2020"
+    },
+    {
+        title: "Oldubil",
+        description: "Educational platform providing interactive learning experiences and progress tracking for students.",
+        image: "assets/images/oldubilcover.png",
+        tags: ["Education", "E-learning", "Student Platform"],
+        date: "2020-08",
+        dateDisplay: "Aug 2020"
     }
 ];
 
@@ -202,7 +232,10 @@ function createProjectCard(project) {
     card.innerHTML = `
         <img src="${project.image}" alt="${project.title}" class="project-image" loading="lazy">
         <div class="project-content">
-            <h3 class="project-title">${project.title}</h3>
+            <div class="project-header">
+                <h3 class="project-title">${project.title}</h3>
+                <span class="project-date">${project.dateDisplay}</span>
+            </div>
             <p class="project-description">${project.description}</p>
             <div class="project-tags">
                 ${project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}
@@ -271,7 +304,10 @@ function showProjectModal(project) {
             ">×</button>
         </div>
         <div style="padding: 2rem;">
-            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 1rem; color: #333;">${project.title}</h2>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; margin: 0; color: #333;">${project.title}</h2>
+                <span style="color: #666; font-size: 0.9rem; font-weight: 500; background: #f0f0f0; padding: 6px 12px; border-radius: 12px;">${project.dateDisplay}</span>
+            </div>
             <p style="color: #666; margin-bottom: 1.5rem; line-height: 1.7;">${project.description}</p>
             <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
                 ${project.tags.map(tag => `<span style="background: #0175C2; color: white; padding: 6px 12px; border-radius: 20px; font-size: 0.9rem; font-weight: 500;">${tag}</span>`).join('')}

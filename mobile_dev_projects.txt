@@ -1,0 +1,26 @@
+Mobile Development Projects Timeline (Based on LinkedIn Data)
+
+Recent Projects (2023-2024):
+- Colendi: Digital Identity & Credit Scoring Platform (2024-01)
+- Coiny Pro: Advanced Cryptocurrency Trading Platform (2023-11)
+- MoneyPay: Digital Payment Solution (2023-09)
+- Webrazzi: Technology News & Startup Platform (2023-07)
+
+Mid-Period Projects (2022-2023):
+- Coiny: Cryptocurrency Tracking & Portfolio Management (2023-03)
+- BMW Online: Automotive Service Application (2022-11)
+- Point CY: Loyalty & Rewards Program Management (2022-09)
+- Doctor Turkey: Healthcare Platform & Telemedicine (2022-06)
+
+Earlier Projects (2021-2022):
+- JetFix: On-demand Repair & Maintenance Service (2022-03)
+- Saha: Field Service Management Application (2021-12)
+- Paket Taxi: Package Delivery Service (2021-09)
+- Mall of the Emirates: Shopping Mall Mobile Application (2021-06)
+
+Foundation Projects (2020-2021):
+- Falbella: E-commerce Platform (2021-03)
+- Türkiye Petrolleri: Energy Sector Application (2020-11)
+- Oldubil: Educational Platform & E-learning (2020-08)
+
+Note: Dates represent project completion/launch periods based on LinkedIn employment history and project timeline analysis.
